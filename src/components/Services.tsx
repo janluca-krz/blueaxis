@@ -1,5 +1,5 @@
 import React from 'react';
-import { Video, Calendar, Check } from 'lucide-react';
+import { Phone, Calendar, Check } from 'lucide-react';
 import { Section } from './Section';
 import { Button } from './Button';
 
@@ -19,7 +19,7 @@ export const Services: React.FC = () => {
       <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
         <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 hover:border-blue-500 transition-colors duration-200 flex flex-col">
           <div className="mb-6">
-            <Video className="w-12 h-12 text-blue-600 mb-4" />
+            <Phone className="w-12 h-12 text-blue-600 mb-4" />
             <h3 className="text-2xl font-bold text-gray-900 mb-2">
               Orientierung Griechenland
             </h3>
