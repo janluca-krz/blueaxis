@@ -47,7 +47,7 @@ export const Services: React.FC = () => {
             <p className="text-gray-600 mb-2">Dauer: 75–90 Minuten</p>
             <p className="text-4xl font-bold text-gray-900 mb-6">249 €</p>
             <Button onClick={scrollToContact} className="w-full">
-              Termin anfragen
+              Beratung anfragen
             </Button>
             <p className="text-gray-600 text-sm mt-2">Alle Beratungen erfolgen online (Teams, Whatsapp Business oder Telefon) und richten sich individuell nach Ihrer Situation.</p>
           </div>
@@ -93,7 +93,7 @@ export const Services: React.FC = () => {
             <Button onClick={scrollToContact} variant="secondary" className="w-full">
               Anfrage stellen
             </Button>
-            <p className="text-gray-600 text-sm mt-2">Alle Beratungen erfolgen online (Teams, Whatsapp Business oder Telefon) und richten sich individuell nach Ihrer Situation.</p>
+            <p className="text-white text-sm mt-2">Alle Beratungen erfolgen online (Teams, Whatsapp Business oder Telefon) und richten sich individuell nach Ihrer Situation.</p>
           </div>
         </div>
       </div>
