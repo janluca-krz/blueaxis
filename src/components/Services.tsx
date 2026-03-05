@@ -49,6 +49,7 @@ export const Services: React.FC = () => {
             <Button onClick={scrollToContact} className="w-full">
               Termin anfragen
             </Button>
+            <p className="text-gray-600 text-sm mt-2">Alle Beratungen erfolgen online (Teams, Whatsapp Business oder Telefon) und richten sich individuell nach Ihrer Situation.</p>
           </div>
         </div>
 
@@ -92,6 +93,7 @@ export const Services: React.FC = () => {
             <Button onClick={scrollToContact} variant="secondary" className="w-full">
               Anfrage stellen
             </Button>
+            <p className="text-gray-600 text-sm mt-2">Alle Beratungen erfolgen online (Teams, Whatsapp Business oder Telefon) und richten sich individuell nach Ihrer Situation.</p>
           </div>
         </div>
       </div>

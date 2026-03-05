@@ -82,6 +82,9 @@ export const Contact: React.FC = () => {
             <Send className="w-5 h-5 mr-2" />
             Anfrage senden
           </Button>
+          <div className="mt-4">
+            <p className="text-gray-600 text-sm">Nach Ihrer Anfrage prüfen wir kurz, ob unsere Beratung zu Ihrer Situation passt.</p>
+          </div>
         </form>
       </div>
     </Section>
