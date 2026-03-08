@@ -1,5 +1,4 @@
 import React from 'react';
-import { Compass } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   const scrollToSection = (id: string) => {
@@ -12,7 +11,7 @@ export const Footer: React.FC = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
             <div className="flex items-center space-x-3 mb-4">
-              <Compass className="w-8 h-8 text-blue-400" />
+              <img className='w-12 h-12' src="./logo.png" alt="" />
               <span className="text-xl font-bold">Blue Axis Consulting</span>
             </div>
             <p className="text-gray-400">

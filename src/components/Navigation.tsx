@@ -44,7 +44,9 @@ export const Navigation: React.FC = () => {
             onClick={scrollToTop}
             className="flex items-center space-x-2 hover:opacity-80 transition-opacity"
           >
-            <Compass className="w-8 h-8 text-blue-600" />
+            <div className="w-10 h-10 text-blue-600">
+              <img src="/logo.png" alt="" className='rounded-l' />
+            </div>
             <span className="text-xl font-bold text-gray-900">Blue Axis Consulting</span>
           </button>
 

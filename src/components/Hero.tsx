@@ -11,7 +11,7 @@ export const Hero: React.FC = () => {
     <div className="bg-white text-white relative overflow-hidden h-screen">
       {/* Video Background rechts */}
       <video
-        className="hidden md:block absolute top-0 right-0 h-full w-[100%] object-cover z-0 translate-x-1/2 translate-y--1"
+        className="hidden md:block absolute top-0 right-0 h-full w-[100%] z-0 translate-x-[28%] translate-y--1 scale-90"
         src="/bac_hero_animated.mp4"
         autoPlay
         loop

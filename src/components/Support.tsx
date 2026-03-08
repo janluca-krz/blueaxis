@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, List, Eye, HelpCircle, Users } from 'lucide-react';
+import { MapPin, List, Eye, HelpCircle, Users, Network } from 'lucide-react';
 import { Section } from './Section';
 
 const features = [
@@ -23,6 +23,10 @@ const features = [
     icon: Users,
     title: 'Begleitung beim Neustart',
   },
+    {
+    icon: Network,
+    title: 'Kontakte & Unterstützung vor Ort',
+  }
 ];
 
 export const Support: React.FC = () => {
@@ -34,7 +38,7 @@ export const Support: React.FC = () => {
         </h2>
       </div>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 items-center">
         {features.map((feature, index) => (
           <div
             key={index}

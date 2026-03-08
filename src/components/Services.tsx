@@ -99,4 +99,33 @@ export const Services: React.FC = () => {
       </div>
     </Section>
   );
+  function Network() {
+      const mousePosition = useMousePosition();
+
+      return (
+          <p>
+              X & Y: {mousePosition.x}, {mousePosition.y}
+          </p>
+      )
+  };
+
+  const useMousePosition = () => {
+      const [
+          mousePosition,
+          setMousePosition
+      ] = React.useState({ x: null, y: null });
+
+      React.useEffect(() => {
+          const updateMousePosition = ev => {
+              setMousePosition({ x: ev.clientX, y: ev.clientY});
+          };
+
+          window.addEventListener('mousemove', updateMousePosition);
+
+          return () => {
+              window.removeEventListener('mousemove', updateMousePosition);;
+          };
+      }, []);
+      return mousePosition;
+  };
 };
