@@ -9,6 +9,7 @@ import { FAQ } from './components/FAQ';
 import { About } from './components/About';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
+import './style.css';
 
 function App() {
   return (

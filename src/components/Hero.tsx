@@ -8,10 +8,10 @@ export const Hero: React.FC = () => {
   };
 
   return (
-    <div className="bg-white text-white relative overflow-hidden h-screen">
+    <div className="bg-white text-white relative overflow-hidden h-120">
       {/* Video Background rechts */}
       <video
-        className="hidden md:block absolute top-0 right-0 h-full w-[100%] z-0 translate-x-[28%] translate-y--1 scale-90"
+        className="hidden lg:block absolute top-0 right-0 h-full w-[100%] z-0 translate-x-[35%] translate-y-[-5%] scale-90"
         src="/bac_hero_animated.mp4"
         autoPlay
         loop
@@ -20,9 +20,9 @@ export const Hero: React.FC = () => {
         style={{ background: 'transparent' }}
       />
       <div className="container mx-auto px-6 py-24 md:py-32 max-w-7xl">
-        <div className="grid md:grid-cols-2 gap-12 items-center h-full">
-          <div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-blue-500 leading-tight mb-6">
+        <div className="grid md:grid-cols-1 xl:grid-cols-2 gap-12 items-center h-full">
+          <div className= "w-full">
+            <h1 className="text-5xl md:text-7xl lg:text-6xl font-bold text-blue-500 leading-tight mb-6 font-monasans">
               Neustart in Griechenland – klar, strukturiert, realistisch
             </h1>
             <p className="text-xl md:text-2xl text-blue-500 mb-8 leading-relaxed">
