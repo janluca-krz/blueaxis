@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* advent-pro-regular - latin */
+@font-face {
+    font-family: "Advent Pro";
+	font-style: normal;
+	font-weight: 400;
+	src: url("./fonts/advent-pro-v18-latin-regular.eot"); /* IE9 Compat Modes */
+}
